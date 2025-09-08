@@ -33,7 +33,9 @@ The user interface is designed for intuitive interaction: functional buttons are
 # Identification process
 <img width="536" height="198" alt="image" src="https://github.com/user-attachments/assets/4f68ace2-628c-4aae-a8b3-99883749a903" />
 
-When the camera is activated, the user makes a Vietnamese sign language gesture. The system recognizes the hand and crops the hand image, processes it with a trained recognition model, displays the recognized letter on the interface and simultaneously plays the corresponding sound.
+When the camera is activated, the user performs a Vietnamese sign language gesture. The system will recognize the hand and crop the hand image, process it with a trained recognition model, display the recognized letter on the interface and simultaneously play the corresponding sound. 
+
+The system has 2 functions: recognizing each character or recognizing a string of characters.
 
 # Results
 https://www.youtube.com/watch?v=epobEQixPjo&list=PLP9z0n_UuqoEGXa90ebJ_4UI__IXJwimX
