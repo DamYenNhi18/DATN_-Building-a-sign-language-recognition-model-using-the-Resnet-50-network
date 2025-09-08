@@ -2,8 +2,11 @@
 # Introduction
 This project creates a model using the ResNet-50 architecture to recognize Vietnamese sign language, including 22 unaccented letters.
 # Features
- Trained ResNet-50 model for sign language classification using TensorFlow.
- 
- Processed real-time image frames from webcam input using OpenCV.
- Used MediaPipe library for hand detection and cropped hand images to feed into prediction model.
- Integrated entire pipeline for real-time sign language recognition and prediction.
+•	Trained ResNet-50 model for sign language classification using TensorFlow. 
+•	Processed real-time image frames from webcam input using OpenCV. 
+•	Used MediaPipe library for hand detection and cropped hand images to feed into prediction model. 
+•	Integrated entire pipeline for real-time sign language recognition and prediction.
+# Training model architecture
+
+<img width="422" height="640" alt="Picture1" src="https://github.com/user-attachments/assets/917edb64-0f72-4c5d-b2c7-aec5e4eec7a0" />
+
