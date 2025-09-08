@@ -14,6 +14,7 @@ This project creates a model using the ResNet-50 architecture to recognize Vietn
 <img width="895" height="964" alt="image" src="https://github.com/user-attachments/assets/d2b3832d-81b2-42b6-9cc9-a8e963e177ca" />
 
 https://drive.google.com/file/d/1YWv20_vgqOFXh-kURzb5nuD3RxYuG6fG/view?usp=sharing
+
 The dataset was constructed by capturing hand gesture images, which were then preprocessed to ensure consistency in format, scale, and labeling. The final dataset comprises 22 folders, each representing a distinct Vietnamese sign language symbol, with 2,000 images per folder. To support model training and evaluation, the dataset was randomly split into two subsets: 80% for training and 20% for testing.
 
 # Training model architecture
