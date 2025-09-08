@@ -10,6 +10,12 @@ This project creates a model using the ResNet-50 architecture to recognize Vietn
 
 •	Integrated entire pipeline for real-time sign language recognition and prediction.
 
+# Data preparation
+<img width="895" height="964" alt="image" src="https://github.com/user-attachments/assets/d2b3832d-81b2-42b6-9cc9-a8e963e177ca" />
+
+https://drive.google.com/file/d/1YWv20_vgqOFXh-kURzb5nuD3RxYuG6fG/view?usp=sharing
+The dataset was constructed by capturing hand gesture images, which were then preprocessed to ensure consistency in format, scale, and labeling. The final dataset comprises 22 folders, each representing a distinct Vietnamese sign language symbol, with 2,000 images per folder. To support model training and evaluation, the dataset was randomly split into two subsets: 80% for training and 20% for testing.
+
 # Training model architecture
 <img width="422" height="640" alt="Picture1" src="https://github.com/user-attachments/assets/917edb64-0f72-4c5d-b2c7-aec5e4eec7a0" />
 
@@ -26,5 +32,23 @@ The user interface is designed for intuitive interaction: functional buttons are
 # Identification process
 <img width="536" height="198" alt="image" src="https://github.com/user-attachments/assets/4f68ace2-628c-4aae-a8b3-99883749a903" />
 
-When the camera is activated, the user performs a Vietnamese sign language gesture. The system will crop the image of the hand, process it with a trained recognition model, display the recognized letter on the interface and simultaneously play the corresponding sound.
+When the camera is activated, the user makes a Vietnamese sign language gesture. The system recognizes the hand and crops the hand image, processes it with a trained recognition model, displays the recognized letter on the interface and simultaneously plays the corresponding sound.
 
+# Results
+https://www.youtube.com/watch?v=epobEQixPjo&list=PLP9z0n_UuqoEGXa90ebJ_4UI__IXJwimX
+# Advantages
+• High accuracy in good lighting conditions and when users perform hand signs clearly and correctly.
+
+• Intuitive user interface, supporting users to operate conveniently and track recognition results clearly.
+
+• Pronunciation function helps increase interactivity.
+
+• The system supports both recognition modes: by single letters and by continuous character strings, suitable for many different purposes.
+# Limitations
+• Accuracy degrades in low-light conditions and complex backgrounds, or when the hand is partially obscured, making it difficult for the system to extract full features.
+
+• Some pairs of symbols have similar shapes (such as “I” and “Y”,) leading to confusion during recognition.
+
+• The system has a delay when starting up, and sometimes the recognition speed is slow due to the impact of the device's processing performance.
+
+• The system only recognizes static symbols.
